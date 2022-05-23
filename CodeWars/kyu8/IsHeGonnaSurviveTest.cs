@@ -23,6 +23,6 @@ namespace CodeWars.kyu8
     }
     class IsHeGonnaSurvive
     {
-        public static bool Hero(int bullets, int dragons) => bullets >= dragons * 2 ? true: false;
+        public static bool Hero(int bullets, int dragons) => bullets >= dragons * 2;
     }
 }

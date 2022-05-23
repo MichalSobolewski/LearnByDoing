@@ -3,16 +3,16 @@
 namespace CodeWars.kyu7
 {
     [TestFixture]
-    public class SolutionTest
+    public class FindTheStrayNumberTest
     {
         [Test]
         public void SimpleArray1()
         {
-            Assert.AreEqual(2, Solution.Stray(new int[] { 1, 1, 2 }));
+            Assert.AreEqual(2, FindTheStrayNumber.Stray(new int[] { 1, 1, 2 }));
         }
     }
 
-    class Solution
+    class FindTheStrayNumber
     {
         public static int Stray(int[] numbers)
         {

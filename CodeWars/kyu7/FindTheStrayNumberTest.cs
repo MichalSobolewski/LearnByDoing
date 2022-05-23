@@ -1,9 +1,4 @@
 ﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodeWars.kyu7
 {
@@ -21,9 +16,8 @@ namespace CodeWars.kyu7
     {
         public static int Stray(int[] numbers)
         {
-            var numberGroups = numbers.GroupBy(x => x);
-            var result = numberGroups.Where(x => x.Count() == 1).Select(x => x.Key);
-            return 0;
+            var result = numbers.GroupBy(x => x).Where(x => x.Count() == 1).Select(x => x.Key);
+            return result.First();
         }
     }
 }

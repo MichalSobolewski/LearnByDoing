@@ -2,6 +2,7 @@
 
 namespace CodeWars.kyu7
 {
+    //https://www.codewars.com/kata/57f609022f4d534f05000024
     [TestFixture]
     public class FindTheStrayNumberTest
     {

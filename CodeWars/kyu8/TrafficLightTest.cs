@@ -2,6 +2,7 @@
 
 namespace CodeWars.kyu8
 {
+    //https://www.codewars.com/kata/58649884a1659ed6cb000072
     [TestFixture]
     public class TrafficLightTest
     {

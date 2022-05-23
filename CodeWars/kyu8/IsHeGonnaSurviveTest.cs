@@ -2,6 +2,7 @@
 
 namespace CodeWars.kyu8
 {
+    //https://www.codewars.com/kata/59ca8246d751df55cc00014c/csharp
     [TestFixture]
     class IsHeGonnaSurviveTest
     {
@@ -21,6 +22,7 @@ namespace CodeWars.kyu8
             Assert.IsFalse(IsHeGonnaSurvive.Hero(bullets, dragons));
         }
     }
+
     class IsHeGonnaSurvive
     {
         public static bool Hero(int bullets, int dragons) => bullets >= dragons * 2;

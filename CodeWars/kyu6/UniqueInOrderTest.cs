@@ -9,12 +9,12 @@ namespace CodeWars.kyu6
         [Test]
         public void EmptyTest()
         {
-            Assert.AreEqual("", UniqueInOrder.UniqueInOrder(""));
+            Assert.AreEqual("", UniqueInOrder.UniqueInOrder2(""));
         }
         [Test]
         public void Test1()
         {
-            Assert.AreEqual("ABCDAB", UniqueInOrder.UniqueInOrder("AAAABBBCCDAABBB"));
+            Assert.AreEqual("ABCDAB", UniqueInOrder.UniqueInOrder2("AAAABBBCCDAABBB"));
         }
     }
 
@@ -45,7 +45,7 @@ namespace CodeWars.kyu6
             return uniques;
         }
 
-        public static IEnumerable<T> UniqueInOrder<T>(IEnumerable<T> iterable)
+        public static IEnumerable<T> UniqueInOrder2<T>(IEnumerable<T> iterable)
         {
             T currentItem = default!;
 
